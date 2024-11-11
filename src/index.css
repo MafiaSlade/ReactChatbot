@@ -1,13 +1,96 @@
+/* General Layout */
 body {
+  font-family: Arial, sans-serif;
+  background-color: '#74EBD5';
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Container for App */
+.app-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
+
+/* Header Styles */
+.header-container {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-container h1 {
+  font-family: 'Kolker Brush', cursive;
+  font-size: 1.5rem;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-container .MuiIconButton-root {
+  color: #333;
+}
+
+.chatbox {
+  padding: 10px; /* Padding inside the chatbox */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 20px; /* Space above the chatbox */
+  height: 450px; /* Fixed height */
+  overflow-y: auto; /* Enable vertical scrolling only when necessary */
+}
+
+/* Style the scrollbar */
+.chatbox::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.chatbox::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* For Firefox */
+.chatbox {
+  scrollbar-width: thin; /* Makes the scrollbar thin */
+  scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+}
+
+.chatbox {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Light border for definition */
+  padding: 16px;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow */
+}
+/* index.css */
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,0 +1,13 @@
+/* SignUpPage.css */
+.signup-container {
+    margin-top: 50px;
+  }
+  
+  .signup-form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .signup-button {
+    margin-top: 20px;
+  }
+  

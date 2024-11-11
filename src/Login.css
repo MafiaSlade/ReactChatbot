@@ -1,0 +1,47 @@
+.login-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .login-form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .login-form .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-button, .signin-button {
+    margin-top: 10px;
+  }
+  
+  .google-icon {
+    color: #DB4437; /* Google Red */
+  }
+  
+  .microsoft-icon {
+    color: #00A4EF; /* Microsoft Blue */
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
